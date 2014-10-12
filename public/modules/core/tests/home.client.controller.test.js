@@ -18,7 +18,7 @@
 		}));
 
 		it('should expose the authentication service', function() {
-			expect(scope.authentication).toBeFalsy();
+			expect(scope.authentication).toBeTruthy();
 		});
 	});
 })();
